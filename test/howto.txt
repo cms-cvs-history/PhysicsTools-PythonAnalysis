@@ -1,0 +1,3 @@
+To use the python examples in CMSSW:
+export PYTHONPATH=$ROOTSYS/lib:$PYTHONPATH
+python trackerHits.py  
