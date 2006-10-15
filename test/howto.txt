@@ -8,7 +8,8 @@ csh: setenv PYTHONPATH $CMSSW_BASE/src/PhysicsTools/PythonAnalysis/python:$PYTHO
 python example.py
 
 # read generatorOutput.root and print the generated event number
-python MCTruth.py
+python MCTruth.py    # standard ROOT and FWLite
+python MCTruth2.py   # with cmstools
 
 # makes some tracker plots
 python trackerHits.py 
